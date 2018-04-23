@@ -1,0 +1,1051 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		164C2FEEDF4E9812A754FC7F /* Pods_sjpay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8CA67EF659BDF8687DD1ED /* Pods_sjpay.framework */; };
+		3E0B328D208DACE600504623 /* KeyBoardSymbolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0B328C208DACE600504623 /* KeyBoardSymbolView.m */; };
+		3E40040A207E01ED001C1255 /* NSArray+Mas.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E400409207E01ED001C1255 /* NSArray+Mas.m */; };
+		3E40040D207F4495001C1255 /* gesturelocktest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E40040B207F448A001C1255 /* gesturelocktest.m */; };
+		3E400410207F4CC9001C1255 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E40040F207F4CC9001C1255 /* BaseViewController.m */; };
+		3E40041420803FD4001C1255 /* MyUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E40041320803FD4001C1255 /* MyUncaughtExceptionHandler.m */; };
+		3E400419208054C5001C1255 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E400418208054C5001C1255 /* SystemConfiguration.framework */; };
+		3E40041B208054DC001C1255 /* libz.1.2.8.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E40041A208054DC001C1255 /* libz.1.2.8.tbd */; };
+		3E40041D208054E9001C1255 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E40041C208054E9001C1255 /* libz.tbd */; };
+		3E40041F208054FA001C1255 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E40041E208054FA001C1255 /* libc++.tbd */; };
+		3E40042120805505001C1255 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E40042020805505001C1255 /* Security.framework */; };
+		3E40042320805510001C1255 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E40042220805510001C1255 /* CoreTelephony.framework */; };
+		3E400426208057B2001C1255 /* Ithirdpartylogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E400425208057B2001C1255 /* Ithirdpartylogin.m */; };
+		3E4004292080616D001C1255 /* WxLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4004282080616D001C1255 /* WxLogin.m */; };
+		3E40043420809C13001C1255 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E40042D20809C13001C1255 /* AESCrypt.m */; };
+		3E40043520809C13001C1255 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E40042F20809C13001C1255 /* NSData+Base64.m */; };
+		3E40043620809C13001C1255 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E40043120809C13001C1255 /* NSData+CommonCrypto.m */; };
+		3E40043720809C13001C1255 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E40043320809C13001C1255 /* NSString+Base64.m */; };
+		3E40043A20809CD9001C1255 /* CommonLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E40043920809CD9001C1255 /* CommonLoginViewController.m */; };
+		3E8F6144207DE4B5001C4E1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F6143207DE4B5001C4E1B /* AppDelegate.m */; };
+		3E8F6147207DE4B5001C4E1B /* SjPayHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F6146207DE4B5001C4E1B /* SjPayHomeViewController.m */; };
+		3E8F614A207DE4B5001C4E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8F6148207DE4B5001C4E1B /* Main.storyboard */; };
+		3E8F614D207DE4B5001C4E1B /* sjpay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F614B207DE4B5001C4E1B /* sjpay.xcdatamodeld */; };
+		3E8F614F207DE4B5001C4E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8F614E207DE4B5001C4E1B /* Assets.xcassets */; };
+		3E8F6152207DE4B5001C4E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8F6150207DE4B5001C4E1B /* LaunchScreen.storyboard */; };
+		3E8F6155207DE4B5001C4E1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F6154207DE4B5001C4E1B /* main.m */; };
+		3E8F615F207DE4B6001C4E1B /* sjpayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F615E207DE4B6001C4E1B /* sjpayTests.m */; };
+		3E8F616A207DE4B6001C4E1B /* sjpayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F6169207DE4B6001C4E1B /* sjpayUITests.m */; };
+		3E8F6187207DEFF9001C4E1B /* GesturePassworView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F617B207DEFF9001C4E1B /* GesturePassworView.m */; };
+		3E8F618E207DEFF9001C4E1B /* GesturePasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F6186207DEFF9001C4E1B /* GesturePasswordController.m */; };
+		3EC774762084806700E56C1E /* FingerPrintAuthHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC774752084806700E56C1E /* FingerPrintAuthHelper.m */; };
+		3EC77478208482F800E56C1E /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC77477208482F700E56C1E /* LocalAuthentication.framework */; };
+		3EC7747D2086EAF000E56C1E /* CustomKeyboardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7747C2086EAF000E56C1E /* CustomKeyboardCell.m */; };
+		3EC774802086F6AB00E56C1E /* CustomKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7747F2086F6AB00E56C1E /* CustomKeyBoardView.m */; };
+		3EC7748420871B3400E56C1E /* KeyBoardNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7748320871B3400E56C1E /* KeyBoardNumberView.m */; };
+		3EC774872088285D00E56C1E /* KeyboardAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC774862088285D00E56C1E /* KeyboardAccessoryView.m */; };
+		3EC774922089946400E56C1E /* KeyBoardAlphabetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC774912089946400E56C1E /* KeyBoardAlphabetView.m */; };
+		3ED05CF620809E69007496C8 /* GesturePassword.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3ED05CF520809E69007496C8 /* GesturePassword.bundle */; };
+		3ED05CF92080A349007496C8 /* HomeVC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3ED05CF82080A349007496C8 /* HomeVC.bundle */; };
+		4079FFC226087CB470B1E00A /* Pods_sjpayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E122ACB45F650758A778283 /* Pods_sjpayTests.framework */; };
+		D842B5D9FB5A456777490ACC /* Pods_sjpayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C9D0FCA797E7C76DBFABAE /* Pods_sjpayUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E8F615B207DE4B6001C4E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E8F6137207DE4B5001C4E1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E8F613E207DE4B5001C4E1B;
+			remoteInfo = sjpay;
+		};
+		3E8F6166207DE4B6001C4E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E8F6137207DE4B5001C4E1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E8F613E207DE4B5001C4E1B;
+			remoteInfo = sjpay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E0B328B208DACE600504623 /* KeyBoardSymbolView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyBoardSymbolView.h; sourceTree = "<group>"; };
+		3E0B328C208DACE600504623 /* KeyBoardSymbolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyBoardSymbolView.m; sourceTree = "<group>"; };
+		3E400407207DF517001C1255 /* sjpay-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sjpay-PrefixHeader.pch"; sourceTree = "<group>"; };
+		3E400408207E01ED001C1255 /* NSArray+Mas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Mas.h"; sourceTree = "<group>"; };
+		3E400409207E01ED001C1255 /* NSArray+Mas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Mas.m"; sourceTree = "<group>"; };
+		3E40040B207F448A001C1255 /* gesturelocktest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gesturelocktest.m; sourceTree = "<group>"; };
+		3E40040E207F4CC9001C1255 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		3E40040F207F4CC9001C1255 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		3E40041220803FD4001C1255 /* MyUncaughtExceptionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		3E40041320803FD4001C1255 /* MyUncaughtExceptionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		3E4004172080521A001C1255 /* thirdpartyaccountconfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thirdpartyaccountconfig.h; sourceTree = "<group>"; };
+		3E400418208054C5001C1255 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3E40041A208054DC001C1255 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		3E40041C208054E9001C1255 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3E40041E208054FA001C1255 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3E40042020805505001C1255 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3E40042220805510001C1255 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3E400424208057B2001C1255 /* Ithirdpartylogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ithirdpartylogin.h; sourceTree = "<group>"; };
+		3E400425208057B2001C1255 /* Ithirdpartylogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ithirdpartylogin.m; sourceTree = "<group>"; };
+		3E4004272080616D001C1255 /* WxLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WxLogin.h; sourceTree = "<group>"; };
+		3E4004282080616D001C1255 /* WxLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WxLogin.m; sourceTree = "<group>"; };
+		3E40042C20809C13001C1255 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		3E40042D20809C13001C1255 /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		3E40042E20809C13001C1255 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		3E40042F20809C13001C1255 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		3E40043020809C13001C1255 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		3E40043120809C13001C1255 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		3E40043220809C13001C1255 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		3E40043320809C13001C1255 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		3E40043820809CD9001C1255 /* CommonLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonLoginViewController.h; sourceTree = "<group>"; };
+		3E40043920809CD9001C1255 /* CommonLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonLoginViewController.m; sourceTree = "<group>"; };
+		3E8F613F207DE4B5001C4E1B /* sjpay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sjpay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8F6142207DE4B5001C4E1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E8F6143207DE4B5001C4E1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E8F6145207DE4B5001C4E1B /* SjPayHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SjPayHomeViewController.h; sourceTree = "<group>"; };
+		3E8F6146207DE4B5001C4E1B /* SjPayHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SjPayHomeViewController.m; sourceTree = "<group>"; };
+		3E8F6149207DE4B5001C4E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E8F614C207DE4B5001C4E1B /* sjpay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sjpay.xcdatamodel; sourceTree = "<group>"; };
+		3E8F614E207DE4B5001C4E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E8F6151207DE4B5001C4E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E8F6153207DE4B5001C4E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8F6154207DE4B5001C4E1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E8F615A207DE4B6001C4E1B /* sjpayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sjpayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8F615E207DE4B6001C4E1B /* sjpayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sjpayTests.m; sourceTree = "<group>"; };
+		3E8F6160207DE4B6001C4E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8F6165207DE4B6001C4E1B /* sjpayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sjpayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8F6169207DE4B6001C4E1B /* sjpayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sjpayUITests.m; sourceTree = "<group>"; };
+		3E8F616B207DE4B6001C4E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8F617B207DEFF9001C4E1B /* GesturePassworView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturePassworView.m; sourceTree = "<group>"; };
+		3E8F617C207DEFF9001C4E1B /* GesturePasswordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturePasswordController.h; sourceTree = "<group>"; };
+		3E8F6185207DEFF9001C4E1B /* GesturePassworView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturePassworView.h; sourceTree = "<group>"; };
+		3E8F6186207DEFF9001C4E1B /* GesturePasswordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturePasswordController.m; sourceTree = "<group>"; };
+		3EC774742084806700E56C1E /* FingerPrintAuthHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingerPrintAuthHelper.h; sourceTree = "<group>"; };
+		3EC774752084806700E56C1E /* FingerPrintAuthHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerPrintAuthHelper.m; sourceTree = "<group>"; };
+		3EC77477208482F700E56C1E /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		3EC7747B2086EAF000E56C1E /* CustomKeyboardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomKeyboardCell.h; sourceTree = "<group>"; };
+		3EC7747C2086EAF000E56C1E /* CustomKeyboardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomKeyboardCell.m; sourceTree = "<group>"; };
+		3EC7747E2086F6AB00E56C1E /* CustomKeyBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomKeyBoardView.h; sourceTree = "<group>"; };
+		3EC7747F2086F6AB00E56C1E /* CustomKeyBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomKeyBoardView.m; sourceTree = "<group>"; };
+		3EC7748220871B3400E56C1E /* KeyBoardNumberView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyBoardNumberView.h; sourceTree = "<group>"; };
+		3EC7748320871B3400E56C1E /* KeyBoardNumberView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyBoardNumberView.m; sourceTree = "<group>"; };
+		3EC774852088285D00E56C1E /* KeyboardAccessoryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardAccessoryView.h; sourceTree = "<group>"; };
+		3EC774862088285D00E56C1E /* KeyboardAccessoryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardAccessoryView.m; sourceTree = "<group>"; };
+		3EC7748820883B5400E56C1E /* CustomKeyboardDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomKeyboardDelegate.h; sourceTree = "<group>"; };
+		3EC774902089946400E56C1E /* KeyBoardAlphabetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyBoardAlphabetView.h; sourceTree = "<group>"; };
+		3EC774912089946400E56C1E /* KeyBoardAlphabetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyBoardAlphabetView.m; sourceTree = "<group>"; };
+		3ED05CF520809E69007496C8 /* GesturePassword.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GesturePassword.bundle; sourceTree = "<group>"; };
+		3ED05CF82080A349007496C8 /* HomeVC.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HomeVC.bundle; sourceTree = "<group>"; };
+		7C473AB35272F4C1B57B24DC /* Pods-sjpay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sjpay.release.xcconfig"; path = "Pods/Target Support Files/Pods-sjpay/Pods-sjpay.release.xcconfig"; sourceTree = "<group>"; };
+		7F8CA67EF659BDF8687DD1ED /* Pods_sjpay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sjpay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8336F35B51F174C7EDC92D5D /* Pods-sjpay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sjpay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sjpay/Pods-sjpay.debug.xcconfig"; sourceTree = "<group>"; };
+		8E122ACB45F650758A778283 /* Pods_sjpayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sjpayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92652926F7ED22EA91B464BA /* Pods-sjpayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sjpayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sjpayUITests/Pods-sjpayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A0C9D0FCA797E7C76DBFABAE /* Pods_sjpayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sjpayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DE5A3F40AFFEE2B938027D /* Pods-sjpayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sjpayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sjpayTests/Pods-sjpayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6898B689A80C21A06265309 /* Pods-sjpayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sjpayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sjpayUITests/Pods-sjpayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7ED19290D15F6A64649B7CE /* Pods-sjpayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sjpayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sjpayTests/Pods-sjpayTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E8F613C207DE4B5001C4E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC77478208482F800E56C1E /* LocalAuthentication.framework in Frameworks */,
+				3E40042320805510001C1255 /* CoreTelephony.framework in Frameworks */,
+				3E40042120805505001C1255 /* Security.framework in Frameworks */,
+				3E40041F208054FA001C1255 /* libc++.tbd in Frameworks */,
+				3E40041D208054E9001C1255 /* libz.tbd in Frameworks */,
+				3E40041B208054DC001C1255 /* libz.1.2.8.tbd in Frameworks */,
+				3E400419208054C5001C1255 /* SystemConfiguration.framework in Frameworks */,
+				164C2FEEDF4E9812A754FC7F /* Pods_sjpay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8F6157207DE4B6001C4E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4079FFC226087CB470B1E00A /* Pods_sjpayTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8F6162207DE4B6001C4E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D842B5D9FB5A456777490ACC /* Pods_sjpayUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0788BB124C4D99CFD90BE636 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8336F35B51F174C7EDC92D5D /* Pods-sjpay.debug.xcconfig */,
+				7C473AB35272F4C1B57B24DC /* Pods-sjpay.release.xcconfig */,
+				C2DE5A3F40AFFEE2B938027D /* Pods-sjpayTests.debug.xcconfig */,
+				F7ED19290D15F6A64649B7CE /* Pods-sjpayTests.release.xcconfig */,
+				E6898B689A80C21A06265309 /* Pods-sjpayUITests.debug.xcconfig */,
+				92652926F7ED22EA91B464BA /* Pods-sjpayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3E40041120803FB6001C1255 /* CrashCollection */ = {
+			isa = PBXGroup;
+			children = (
+				3E40041220803FD4001C1255 /* MyUncaughtExceptionHandler.h */,
+				3E40041320803FD4001C1255 /* MyUncaughtExceptionHandler.m */,
+			);
+			path = CrashCollection;
+			sourceTree = "<group>";
+		};
+		3E40041520804B67001C1255 /* Thirdpartylogin */ = {
+			isa = PBXGroup;
+			children = (
+				3E40041620804B7D001C1255 /* weixin */,
+				3E4004172080521A001C1255 /* thirdpartyaccountconfig.h */,
+				3E400424208057B2001C1255 /* Ithirdpartylogin.h */,
+				3E400425208057B2001C1255 /* Ithirdpartylogin.m */,
+			);
+			path = Thirdpartylogin;
+			sourceTree = "<group>";
+		};
+		3E40041620804B7D001C1255 /* weixin */ = {
+			isa = PBXGroup;
+			children = (
+				3E4004272080616D001C1255 /* WxLogin.h */,
+				3E4004282080616D001C1255 /* WxLogin.m */,
+			);
+			path = weixin;
+			sourceTree = "<group>";
+		};
+		3E40042A20809BBC001C1255 /* Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				3E40042B20809C13001C1255 /* Encrypt */,
+			);
+			path = Encrypt;
+			sourceTree = "<group>";
+		};
+		3E40042B20809C13001C1255 /* Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				3E40042C20809C13001C1255 /* AESCrypt.h */,
+				3E40042D20809C13001C1255 /* AESCrypt.m */,
+				3E40042E20809C13001C1255 /* NSData+Base64.h */,
+				3E40042F20809C13001C1255 /* NSData+Base64.m */,
+				3E40043020809C13001C1255 /* NSData+CommonCrypto.h */,
+				3E40043120809C13001C1255 /* NSData+CommonCrypto.m */,
+				3E40043220809C13001C1255 /* NSString+Base64.h */,
+				3E40043320809C13001C1255 /* NSString+Base64.m */,
+			);
+			name = Encrypt;
+			sourceTree = "<group>";
+		};
+		3E8F6136207DE4B5001C4E1B = {
+			isa = PBXGroup;
+			children = (
+				3E40041120803FB6001C1255 /* CrashCollection */,
+				3E8F6190207DF24B001C4E1B /* Config */,
+				3E8F6141207DE4B5001C4E1B /* sjpay */,
+				3E8F615D207DE4B6001C4E1B /* sjpayTests */,
+				3E8F6168207DE4B6001C4E1B /* sjpayUITests */,
+				3E8F6140207DE4B5001C4E1B /* Products */,
+				0788BB124C4D99CFD90BE636 /* Pods */,
+				81848A04DB8044B385119CA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E8F6140207DE4B5001C4E1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E8F613F207DE4B5001C4E1B /* sjpay.app */,
+				3E8F615A207DE4B6001C4E1B /* sjpayTests.xctest */,
+				3E8F6165207DE4B6001C4E1B /* sjpayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E8F6141207DE4B5001C4E1B /* sjpay */ = {
+			isa = PBXGroup;
+			children = (
+				3EC774792086E86600E56C1E /* toolkit */,
+				3EC7747220843FFE00E56C1E /* Category */,
+				3ED05CF72080A31F007496C8 /* Resource */,
+				3E40042A20809BBC001C1255 /* Encrypt */,
+				3E8F6178207DE81D001C4E1B /* Login */,
+				3E8F6177207DE578001C4E1B /* OpeningSau */,
+				3E8F6142207DE4B5001C4E1B /* AppDelegate.h */,
+				3E8F6143207DE4B5001C4E1B /* AppDelegate.m */,
+				3E8F6145207DE4B5001C4E1B /* SjPayHomeViewController.h */,
+				3E8F6146207DE4B5001C4E1B /* SjPayHomeViewController.m */,
+				3E8F6148207DE4B5001C4E1B /* Main.storyboard */,
+				3E8F614E207DE4B5001C4E1B /* Assets.xcassets */,
+				3E8F6150207DE4B5001C4E1B /* LaunchScreen.storyboard */,
+				3E8F6153207DE4B5001C4E1B /* Info.plist */,
+				3E8F6154207DE4B5001C4E1B /* main.m */,
+				3E8F614B207DE4B5001C4E1B /* sjpay.xcdatamodeld */,
+			);
+			path = sjpay;
+			sourceTree = "<group>";
+		};
+		3E8F615D207DE4B6001C4E1B /* sjpayTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E40040B207F448A001C1255 /* gesturelocktest.m */,
+				3E8F615E207DE4B6001C4E1B /* sjpayTests.m */,
+				3E8F6160207DE4B6001C4E1B /* Info.plist */,
+			);
+			path = sjpayTests;
+			sourceTree = "<group>";
+		};
+		3E8F6168207DE4B6001C4E1B /* sjpayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E8F6169207DE4B6001C4E1B /* sjpayUITests.m */,
+				3E8F616B207DE4B6001C4E1B /* Info.plist */,
+			);
+			path = sjpayUITests;
+			sourceTree = "<group>";
+		};
+		3E8F6177207DE578001C4E1B /* OpeningSau */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OpeningSau;
+			sourceTree = "<group>";
+		};
+		3E8F6178207DE81D001C4E1B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3EC7747320847FF800E56C1E /* Biometrics */,
+				3E40041520804B67001C1255 /* Thirdpartylogin */,
+				3E8F617A207DEB66001C4E1B /* GesturePassword */,
+				3E8F6179207DEB5D001C4E1B /* Common */,
+				3E40040E207F4CC9001C1255 /* BaseViewController.h */,
+				3E40040F207F4CC9001C1255 /* BaseViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3E8F6179207DEB5D001C4E1B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3E40043820809CD9001C1255 /* CommonLoginViewController.h */,
+				3E40043920809CD9001C1255 /* CommonLoginViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3E8F617A207DEB66001C4E1B /* GesturePassword */ = {
+			isa = PBXGroup;
+			children = (
+				3E8F6185207DEFF9001C4E1B /* GesturePassworView.h */,
+				3E8F617B207DEFF9001C4E1B /* GesturePassworView.m */,
+				3E8F617C207DEFF9001C4E1B /* GesturePasswordController.h */,
+				3E8F6186207DEFF9001C4E1B /* GesturePasswordController.m */,
+				3ED05CF520809E69007496C8 /* GesturePassword.bundle */,
+			);
+			path = GesturePassword;
+			sourceTree = "<group>";
+		};
+		3E8F6190207DF24B001C4E1B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3E400407207DF517001C1255 /* sjpay-PrefixHeader.pch */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		3EC7747220843FFE00E56C1E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3E400408207E01ED001C1255 /* NSArray+Mas.h */,
+				3E400409207E01ED001C1255 /* NSArray+Mas.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3EC7747320847FF800E56C1E /* Biometrics */ = {
+			isa = PBXGroup;
+			children = (
+				3EC774742084806700E56C1E /* FingerPrintAuthHelper.h */,
+				3EC774752084806700E56C1E /* FingerPrintAuthHelper.m */,
+			);
+			path = Biometrics;
+			sourceTree = "<group>";
+		};
+		3EC774792086E86600E56C1E /* toolkit */ = {
+			isa = PBXGroup;
+			children = (
+				3EC7747A2086E87000E56C1E /* CustomKeyBoard */,
+			);
+			path = toolkit;
+			sourceTree = "<group>";
+		};
+		3EC7747A2086E87000E56C1E /* CustomKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				3EC7747B2086EAF000E56C1E /* CustomKeyboardCell.h */,
+				3EC7747C2086EAF000E56C1E /* CustomKeyboardCell.m */,
+				3EC7747E2086F6AB00E56C1E /* CustomKeyBoardView.h */,
+				3EC7747F2086F6AB00E56C1E /* CustomKeyBoardView.m */,
+				3EC7748220871B3400E56C1E /* KeyBoardNumberView.h */,
+				3EC7748320871B3400E56C1E /* KeyBoardNumberView.m */,
+				3EC774852088285D00E56C1E /* KeyboardAccessoryView.h */,
+				3EC774862088285D00E56C1E /* KeyboardAccessoryView.m */,
+				3EC7748820883B5400E56C1E /* CustomKeyboardDelegate.h */,
+				3EC774902089946400E56C1E /* KeyBoardAlphabetView.h */,
+				3EC774912089946400E56C1E /* KeyBoardAlphabetView.m */,
+				3E0B328B208DACE600504623 /* KeyBoardSymbolView.h */,
+				3E0B328C208DACE600504623 /* KeyBoardSymbolView.m */,
+			);
+			path = CustomKeyBoard;
+			sourceTree = "<group>";
+		};
+		3ED05CF72080A31F007496C8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3ED05CF82080A349007496C8 /* HomeVC.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		81848A04DB8044B385119CA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EC77477208482F700E56C1E /* LocalAuthentication.framework */,
+				3E40042220805510001C1255 /* CoreTelephony.framework */,
+				3E40042020805505001C1255 /* Security.framework */,
+				3E40041E208054FA001C1255 /* libc++.tbd */,
+				3E40041C208054E9001C1255 /* libz.tbd */,
+				3E40041A208054DC001C1255 /* libz.1.2.8.tbd */,
+				3E400418208054C5001C1255 /* SystemConfiguration.framework */,
+				7F8CA67EF659BDF8687DD1ED /* Pods_sjpay.framework */,
+				8E122ACB45F650758A778283 /* Pods_sjpayTests.framework */,
+				A0C9D0FCA797E7C76DBFABAE /* Pods_sjpayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E8F613E207DE4B5001C4E1B /* sjpay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E8F616E207DE4B6001C4E1B /* Build configuration list for PBXNativeTarget "sjpay" */;
+			buildPhases = (
+				D8904A5D2CB97B782BDE3198 /* [CP] Check Pods Manifest.lock */,
+				3E8F613B207DE4B5001C4E1B /* Sources */,
+				3E8F613C207DE4B5001C4E1B /* Frameworks */,
+				3E8F613D207DE4B5001C4E1B /* Resources */,
+				F2B70825F215966C3E5824B8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sjpay;
+			productName = sjpay;
+			productReference = 3E8F613F207DE4B5001C4E1B /* sjpay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E8F6159207DE4B6001C4E1B /* sjpayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E8F6171207DE4B6001C4E1B /* Build configuration list for PBXNativeTarget "sjpayTests" */;
+			buildPhases = (
+				C5EEA43083ACA197E8AE3C33 /* [CP] Check Pods Manifest.lock */,
+				3E8F6156207DE4B6001C4E1B /* Sources */,
+				3E8F6157207DE4B6001C4E1B /* Frameworks */,
+				3E8F6158207DE4B6001C4E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E8F615C207DE4B6001C4E1B /* PBXTargetDependency */,
+			);
+			name = sjpayTests;
+			productName = sjpayTests;
+			productReference = 3E8F615A207DE4B6001C4E1B /* sjpayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E8F6164207DE4B6001C4E1B /* sjpayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E8F6174207DE4B6001C4E1B /* Build configuration list for PBXNativeTarget "sjpayUITests" */;
+			buildPhases = (
+				6627634FFECBAF3E520893AD /* [CP] Check Pods Manifest.lock */,
+				3E8F6161207DE4B6001C4E1B /* Sources */,
+				3E8F6162207DE4B6001C4E1B /* Frameworks */,
+				3E8F6163207DE4B6001C4E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E8F6167207DE4B6001C4E1B /* PBXTargetDependency */,
+			);
+			name = sjpayUITests;
+			productName = sjpayUITests;
+			productReference = 3E8F6165207DE4B6001C4E1B /* sjpayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E8F6137207DE4B5001C4E1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = sjzf;
+				TargetAttributes = {
+					3E8F613E207DE4B5001C4E1B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3E8F6159207DE4B6001C4E1B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E8F613E207DE4B5001C4E1B;
+					};
+					3E8F6164207DE4B6001C4E1B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E8F613E207DE4B5001C4E1B;
+					};
+				};
+			};
+			buildConfigurationList = 3E8F613A207DE4B5001C4E1B /* Build configuration list for PBXProject "sjpay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E8F6136207DE4B5001C4E1B;
+			productRefGroup = 3E8F6140207DE4B5001C4E1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E8F613E207DE4B5001C4E1B /* sjpay */,
+				3E8F6159207DE4B6001C4E1B /* sjpayTests */,
+				3E8F6164207DE4B6001C4E1B /* sjpayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E8F613D207DE4B5001C4E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8F6152207DE4B5001C4E1B /* LaunchScreen.storyboard in Resources */,
+				3ED05CF620809E69007496C8 /* GesturePassword.bundle in Resources */,
+				3E8F614F207DE4B5001C4E1B /* Assets.xcassets in Resources */,
+				3ED05CF92080A349007496C8 /* HomeVC.bundle in Resources */,
+				3E8F614A207DE4B5001C4E1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8F6158207DE4B6001C4E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8F6163207DE4B6001C4E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6627634FFECBAF3E520893AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sjpayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5EEA43083ACA197E8AE3C33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sjpayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8904A5D2CB97B782BDE3198 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sjpay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2B70825F215966C3E5824B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sjpay/Pods-sjpay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/BlocksKit/BlocksKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlocksKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sjpay/Pods-sjpay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E8F613B207DE4B5001C4E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC774762084806700E56C1E /* FingerPrintAuthHelper.m in Sources */,
+				3E0B328D208DACE600504623 /* KeyBoardSymbolView.m in Sources */,
+				3E4004292080616D001C1255 /* WxLogin.m in Sources */,
+				3E8F6147207DE4B5001C4E1B /* SjPayHomeViewController.m in Sources */,
+				3E400410207F4CC9001C1255 /* BaseViewController.m in Sources */,
+				3EC774922089946400E56C1E /* KeyBoardAlphabetView.m in Sources */,
+				3E8F6144207DE4B5001C4E1B /* AppDelegate.m in Sources */,
+				3EC7748420871B3400E56C1E /* KeyBoardNumberView.m in Sources */,
+				3E40043420809C13001C1255 /* AESCrypt.m in Sources */,
+				3E8F6155207DE4B5001C4E1B /* main.m in Sources */,
+				3E40043620809C13001C1255 /* NSData+CommonCrypto.m in Sources */,
+				3E40043A20809CD9001C1255 /* CommonLoginViewController.m in Sources */,
+				3E8F614D207DE4B5001C4E1B /* sjpay.xcdatamodeld in Sources */,
+				3E40040A207E01ED001C1255 /* NSArray+Mas.m in Sources */,
+				3E40043720809C13001C1255 /* NSString+Base64.m in Sources */,
+				3E8F6187207DEFF9001C4E1B /* GesturePassworView.m in Sources */,
+				3E8F618E207DEFF9001C4E1B /* GesturePasswordController.m in Sources */,
+				3EC7747D2086EAF000E56C1E /* CustomKeyboardCell.m in Sources */,
+				3E400426208057B2001C1255 /* Ithirdpartylogin.m in Sources */,
+				3EC774802086F6AB00E56C1E /* CustomKeyBoardView.m in Sources */,
+				3E40043520809C13001C1255 /* NSData+Base64.m in Sources */,
+				3E40041420803FD4001C1255 /* MyUncaughtExceptionHandler.m in Sources */,
+				3EC774872088285D00E56C1E /* KeyboardAccessoryView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8F6156207DE4B6001C4E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E40040D207F4495001C1255 /* gesturelocktest.m in Sources */,
+				3E8F615F207DE4B6001C4E1B /* sjpayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8F6161207DE4B6001C4E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8F616A207DE4B6001C4E1B /* sjpayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E8F615C207DE4B6001C4E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E8F613E207DE4B5001C4E1B /* sjpay */;
+			targetProxy = 3E8F615B207DE4B6001C4E1B /* PBXContainerItemProxy */;
+		};
+		3E8F6167207DE4B6001C4E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E8F613E207DE4B5001C4E1B /* sjpay */;
+			targetProxy = 3E8F6166207DE4B6001C4E1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E8F6148207DE4B5001C4E1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E8F6149207DE4B5001C4E1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E8F6150207DE4B5001C4E1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E8F6151207DE4B5001C4E1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E8F616C207DE4B6001C4E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E8F616D207DE4B6001C4E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E8F616F207DE4B6001C4E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8336F35B51F174C7EDC92D5D /* Pods-sjpay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 634S4LBZV7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Config/sjpay-PrefixHeader.pch";
+				INFOPLIST_FILE = sjpay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"WeChatSDK\"",
+					"-l\"c++\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"BlocksKit\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"Reachability\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjzf.sjpay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E8F6170207DE4B6001C4E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C473AB35272F4C1B57B24DC /* Pods-sjpay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 634S4LBZV7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Config/sjpay-PrefixHeader.pch";
+				INFOPLIST_FILE = sjpay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"WeChatSDK\"",
+					"-l\"c++\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"BlocksKit\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"Reachability\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjzf.sjpay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E8F6172207DE4B6001C4E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2DE5A3F40AFFEE2B938027D /* Pods-sjpayTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 634S4LBZV7;
+				INFOPLIST_FILE = sjpayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjzf..sjpayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sjpay.app/sjpay";
+			};
+			name = Debug;
+		};
+		3E8F6173207DE4B6001C4E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7ED19290D15F6A64649B7CE /* Pods-sjpayTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 634S4LBZV7;
+				INFOPLIST_FILE = sjpayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjzf..sjpayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sjpay.app/sjpay";
+			};
+			name = Release;
+		};
+		3E8F6175207DE4B6001C4E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6898B689A80C21A06265309 /* Pods-sjpayUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 634S4LBZV7;
+				INFOPLIST_FILE = sjpayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjzf..sjpayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sjpay;
+			};
+			name = Debug;
+		};
+		3E8F6176207DE4B6001C4E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92652926F7ED22EA91B464BA /* Pods-sjpayUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 634S4LBZV7;
+				INFOPLIST_FILE = sjpayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjzf..sjpayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sjpay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E8F613A207DE4B5001C4E1B /* Build configuration list for PBXProject "sjpay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8F616C207DE4B6001C4E1B /* Debug */,
+				3E8F616D207DE4B6001C4E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E8F616E207DE4B6001C4E1B /* Build configuration list for PBXNativeTarget "sjpay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8F616F207DE4B6001C4E1B /* Debug */,
+				3E8F6170207DE4B6001C4E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E8F6171207DE4B6001C4E1B /* Build configuration list for PBXNativeTarget "sjpayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8F6172207DE4B6001C4E1B /* Debug */,
+				3E8F6173207DE4B6001C4E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E8F6174207DE4B6001C4E1B /* Build configuration list for PBXNativeTarget "sjpayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8F6175207DE4B6001C4E1B /* Debug */,
+				3E8F6176207DE4B6001C4E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3E8F614B207DE4B5001C4E1B /* sjpay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3E8F614C207DE4B5001C4E1B /* sjpay.xcdatamodel */,
+			);
+			currentVersion = 3E8F614C207DE4B5001C4E1B /* sjpay.xcdatamodel */;
+			path = sjpay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3E8F6137207DE4B5001C4E1B /* Project object */;
+}

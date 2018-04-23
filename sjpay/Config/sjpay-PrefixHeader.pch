@@ -1,0 +1,26 @@
+//
+//  sjpay_PrefixHeader.pch
+//  sjpay
+//
+//  Created by sjzf on 11/04/2018.
+//  Copyright © 2018 sjzf. All rights reserved.
+//
+
+#ifndef sjpay_PrefixHeader_pch
+#define sjpay_PrefixHeader_pch
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Masonry.h"
+#import "AFNetworking.h"
+#import "WXApi.h"
+
+#ifdef DEBUG
+#define NSLog(format, ...)  printf("[%s] %s [%d line] %s\n", __TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ## __VA_ARGS__] UTF8String])
+
+#else
+#define NSLog(format, ...)
+#endif
+
+#endif /* sjpay_PrefixHeader_pch */
